@@ -14,10 +14,10 @@ try
     n_trials                        = 25;                                   % Number of trials per staircase
     n_staircases                    = 2;                                    % Per condition
     
-    stimulus_duration               = 3;                                   % secs
+    stimulus_duration               = 3;                                    % secs
     
     translation_speed               = 2;                                    % m/s, apparently 1.9 m/s is a brisk walking speed
-    rotation                        = [-1 0 1];                             % deg/s
+    rotation                        = [-2];                                 % deg/s
     
     %-----Experiment Settings, Don't Change----
     %-----Movement Directions
