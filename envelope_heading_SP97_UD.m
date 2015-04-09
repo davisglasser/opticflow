@@ -64,7 +64,7 @@ try
     % the units PsychToolbox wants...
     nPlanes                         = length(plane_dist);
     tme                             = clock;
-    logname = strcat(data_path,initials,'_',experiment_id,'_trials');
+    logname = strcat(data_path,initials,'_',experiment_id,'_',num2str(tme(1)),'_',num2str(tme(2)),'_',num2str(tme(3)),'_trials');
     
     gabor_size                      = gabor_diam/scale_factor;
     stimulus_radius                 = round(gabor_size/2);
